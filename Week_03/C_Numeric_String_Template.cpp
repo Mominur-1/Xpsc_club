@@ -12,7 +12,7 @@ using namespace std;
 uint64_t vec_hash(const vector<int> &v)
 {
     uint64_t h = 0;
-    uint64_t P = 131;
+    uint64_t P = 31;
     for (int x : v)
     {
         h = h * P + x;
